@@ -1,3 +1,14 @@
+---
+title: IoT Device Type Classification Using Supervised Machine Learning
+emoji: 📚
+colorFrom: gray
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.10.0
+app_file: app.py
+pinned: false
+---
+
 # IoT-Device-Type-Identification-Using-Machine-Learning
 For the IoT device type identification, this project was intended to test Extreme Gradient Boosting Classifier (XGBoost Classifier) to determine the model in terms of accuracy on testing and validation data.
 
