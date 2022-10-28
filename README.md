@@ -22,4 +22,5 @@ The data of different IoT device types will undergo to data preprocessing. Since
 
 ## 2. Extreme Gradient Boosting Classifier Model (XGBoost Classifier)
 The experimental results demonstrate that XGBoost Classifier model has an accuracy of 95.00% on training data and 81.00% on validation data. The model performs well in terms of accuracy. It has been found that this demo’s functionalities are working as intended.
+
 ![image](https://user-images.githubusercontent.com/22261606/198205939-eae728a0-a840-4037-ba70-4d67e13353c6.png)
