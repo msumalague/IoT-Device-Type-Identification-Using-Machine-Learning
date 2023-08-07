@@ -6,10 +6,8 @@ from xgboost import XGBClassifier
 
 data_set = pd.read_csv("feature_trained.csv")
 st.header("IoT Device Type Identification Using Supervised Machine Learning")
-st.subheader("This section will help you determine the type of IoT Device you have (Baby Monitor, Lights, Motion Sensor, Security Camera, Smoke Detector, Socket, Thermostat, TV, Watch and Water Sensor)"
-             )
-st.text("Kindly fill out all the input fields in order to see the results."
-        )
+st.subheader("This section will help you determine the type of IoT Device you have (Baby Monitor, Lights, Motion Sensor, Security Camera, Smoke Detector, Socket, Thermostat, TV, Watch and Water Sensor)")
+st.text("Kindly fill out all the input fields in order to see the results.")
 
 st.dataframe(data_set)
 http_time_avg = st.number_input("HTTP Time Average")
